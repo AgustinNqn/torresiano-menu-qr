@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+}
+
+@media (width < 450px) {
+    
+
+    .logoMain{
+        border-radius: 100%;
+        width: 50px;
+    }
+
+    header {
+        background-image: url(../images/fondo.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        height: 135px;
+    }
+
+
+
+    .contenedorPadre{
+        background-color: #c51313;
+        max-width: 100%;
+        padding-left: 1.2rem;
+        padding-right: 1.2rem;
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+
+    
+
+    h1{
+        text-align: center;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        color: white !important;
+        background-color: #4d0d0dc3;
+        border-radius: 4px;
+    }
+
+    h2{
+        text-align: center;
+        padding-top: 1rem;
+        font-size: 30px !important;
+        padding-bottom: 1rem;
+        color: white !important;
+        background-color: #ce4949c3;
+        width: 100% !important;
+        border-radius: 12px;
+    }
+
+    .textoComidas{
+        color: white;
+        font-style: italic;
+    }
+    
+    .ingredientes{
+        font-size: 20px;
+        background-color: #a87728;
+        border-radius: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .subtitulo{
+        font-size: 40px;
+        font-weight:700;
+    }
+
+    li{
+        list-style: none;
+        text-align: center;
+    }
+/* TARJETAS DE COMIDA */
+
+.tituloMenuDia{
+    padding-top: 20px;
+}
+
+
+main .comidas{
+        border-radius: 3px;
+        width: 100%;
+        aspect-ratio: 3/2;
+        object-fit: cover;
+        justify-content: center
+    }
+
+
+    .w-100{
+        aspect-ratio: 3/2;
+        padding-top: 15px;
+        border-radius: 20px;
+    }
+
+
+    .comidasTarjetas {
+        background-color: #d79326;
+        padding: 1rem;
+        border: 2px solid transparent;
+        border-radius: 15px;
+        transition: all 0.3s ease;
+        margin-bottom: 1rem;
+        color: white;
+        text-align: center;
+    }
+    
+    .img-comidas {
+        border-radius: 10px;
+        width: 100%;
+        aspect-ratio: 3/2;
+        object-fit: cover;
+        padding-bottom: 10px;
+    }
+
+    .separadorSubtitulo{
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        border-radius: 20px;
+    }
+    /* TARJETAS DE COMIDA */
+}
+
+.contenedorFooter{
+    background-color: #d79326;
+    padding-top: 10px;
+    text-align: center;
+    justify-content: end;
+}
+
+html{
+    background-color: #d79326;
+}
